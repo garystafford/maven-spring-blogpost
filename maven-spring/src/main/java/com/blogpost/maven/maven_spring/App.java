@@ -31,7 +31,7 @@ public class App {
 
 		// vehicle3 bean
 		Vehicle obj3 = (Vehicle) context.getBean("vehicle3");
-		System.out.printf("Our son drives his %s to fast!\n", obj3.getType()
+		System.out.printf("Our son drives his %s too fast!\n", obj3.getType()
 				.toLowerCase());
 
 	}
